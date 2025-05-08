@@ -1,6 +1,6 @@
 export default function WelcomeMessage() {
     return (
-      <section className="bg-light py-16 px-4 sm:px-6 lg:px-8 text-black">
+      <section className="bg-pink py-16 px-4 mx-12 my-12 rounded-3xl sm:px-6 lg:px-8 text-white">
         <div className="max-w-4xl mx-auto text-center">
           {/* Main Heading */}
           <h1 className="text-4xl sm:text-5xl font-bold mb-6 leading-tight">

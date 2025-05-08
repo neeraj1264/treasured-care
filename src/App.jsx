@@ -6,6 +6,7 @@ import ContactUs from './pages/Contact';
 import VisionMission from './pages/VisionMission';
 import CompanyValues from './pages/CompanyValues';
 import DifferenceWithImage from './pages/Difference';
+import "./App.css";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/vision" element={<VisionMission />} />
         <Route path="/values" element={<CompanyValues />} />
-        <Route path="/different" element={<DifferenceWithImage />} />
+        <Route path="/about" element={<DifferenceWithImage />} />
         <Route path="/contact" element={<ContactUs />} />
       </Routes>
       <Footer />

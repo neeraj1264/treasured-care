@@ -10,7 +10,7 @@ export default function ContactUs() {
     <>
       {/* Render Hero only when on the /contact route */}
       {location.pathname === "/contact" && <Hero />}
-    <section className="py-16 bg-[#002f4b] text-white my-10">
+    <section className="py-16 bg-pink text-white my-32 mx-20 rounded-3xl">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
           {/* Left: Headline & copy */}

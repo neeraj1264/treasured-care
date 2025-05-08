@@ -9,7 +9,7 @@ export default function Hero() {
     "/": "Welcome to Treasured Care",
     "/vision": "Our Vision & Mission",
     "/values": "Our Company Values",
-    "/different": "Treasured Care For You Difference",
+    "/about": "About Us",
     "/contact": "Contact Us",
   };
 
@@ -23,7 +23,7 @@ export default function Hero() {
           bg-cover bg-center
           h-64 sm:h-80 md:h-screen
           flex items-center
-          before:absolute before:inset-0 before:bg-black before:opacity-40
+          before:absolute before:inset-0 before:bg-black before:opacity-0
         "
         style={{
           backgroundImage: "url('/header-img-main-sm.jpg')",
