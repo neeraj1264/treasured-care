@@ -1,14 +1,11 @@
 {
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "/"
-      }
-    ],
-    "build": {
-      "env": {
-        "NODE_VERSION": "18"
-      }
+  "installCommand": "npm ci --omit=optional",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ],
+  "build": {
+    "env": {
+      "NODE_VERSION": "18"
     }
   }
-  
+}
