@@ -1,0 +1,26 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import ContactUs from './pages/Contact';
+import VisionMission from './pages/VisionMission';
+import CompanyValues from './pages/CompanyValues';
+import DifferenceWithImage from './pages/Difference';
+
+function App() {
+  return (
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/vision" element={<VisionMission />} />
+        <Route path="/values" element={<CompanyValues />} />
+        <Route path="/different" element={<DifferenceWithImage />} />
+        <Route path="/contact" element={<ContactUs />} />
+      </Routes>
+      <Footer />
+    </Router>
+  );
+}
+
+export default App;
