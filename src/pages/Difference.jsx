@@ -11,11 +11,11 @@ export default function DifferenceWithImage() {
       {/* Render Hero only when on the /contact route */}
       {location.pathname === "/about" && <Hero />}
 
-    <section className="py-16 bg-white-50 my-10">
-    <h2 className="text-2xl md:text-4xl font-extrabold mb-8 text-center my-16 text-pink">
+    <section className="pb-16  bg-white-50 mt-10">
+    <h2 className="text-2xl md:text-4xl font-extrabold mb-8 text-center pb-16 text-pink">
           About Us
         </h2>
-      <div className="max-w-5xl mx-auto px-4 py-8 rounded-xl shadow-md bg-pink">
+      <div className="mx-4 lg:mx-8  px-4 py-8 rounded-xl shadow-md bg-pink">
         <div className="flex flex-col md:flex-row items-center gap-8">
           {/* Image side */}
           <div className="md:w-1/2">

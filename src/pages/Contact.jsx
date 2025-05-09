@@ -10,7 +10,10 @@ export default function ContactUs() {
     <>
       {/* Render Hero only when on the /contact route */}
       {location.pathname === "/contact" && <Hero />}
-    <section className="py-16 bg-pink text-white my-32 mx-20 rounded-3xl">
+          <h2 className="text-2xl md:text-4xl font-extrabold text-center py-4 text-pink">
+          Contact Us
+        </h2>
+    <section className="py-16 bg-pink text-white my-16 mx-4 lg:mx-8 rounded-3xl">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
           {/* Left: Headline & copy */}
@@ -28,7 +31,7 @@ export default function ContactUs() {
           </div>
 
           {/* Right: Contact methods */}
-          <div className="flex flex-col mx-5 my-3">
+          <div className="flex flex-col mx-auto my-3">
   {/* Call button */}
   <a
     href="tel:+61411776984"
@@ -48,7 +51,7 @@ export default function ContactUs() {
 
   {/* Request callback button */}
   <a
-    href="/contact-us"
+    href="https://gmail.com"
     className="
       mt-2
       inline-block
@@ -61,7 +64,7 @@ export default function ContactUs() {
       transition-colors duration-200
     "
   >
-    Request a call back
+    xyz@gmail.com
   </a>
 </div>
 

@@ -43,7 +43,7 @@ export default function CompanyValues() {
       {location.pathname === "/values" && <Hero />}
       <section className="py-16 bg-white my-10">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <h2 className="text-2xl md:text-4xl font-extrabold mb-8 text-center my-16 text-pink">Our Company Values</h2>
+          <h2 className="text-2xl md:text-4xl font-extrabold mb-16 text-center text-pink">Our Company Values</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
             {values.map((val) => (
               <div key={val.title} className="bg-pink rounded-xl shadow-md p-6 flex flex-col items-center">

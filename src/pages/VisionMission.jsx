@@ -9,9 +9,9 @@ export default function VisionMission() {
     <>
       {/* Render Hero only when on the /contact route */}
       {location.pathname === "/vision" && <Hero />}
-      <section className="py-16 bg-white-50 my-10">
-        <div className="max-w-5xl mx-auto px-4 text-center">
-          <h2 className="text-2xl md:text-4xl font-extrabold mb-8 text-center my-16 text-pink">Our Vision &amp; Mission</h2>
+      <section className="pt-16 bg-white-50 my-10 lg:mx-auto">
+        <div className="max-w-6xl mx-auto px-4 text-center">
+          <h2 className="text-2xl md:text-4xl font-extrabold text-center mb-24 text-pink">Our Vision &amp; Mission</h2>
           <div className="flex flex-col md:flex-row gap-8">
             {/* Vision Card */}
             <div className="flex-1 bg-pink text-white rounded-xl shadow-lg p-6">

@@ -7,10 +7,12 @@ import VisionMission from './pages/VisionMission';
 import CompanyValues from './pages/CompanyValues';
 import DifferenceWithImage from './pages/Difference';
 import "./App.css";
+import ScrollToTop from './util/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

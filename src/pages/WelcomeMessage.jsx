@@ -1,11 +1,11 @@
 export default function WelcomeMessage() {
   return (
     <>
-      <h2 className="text-2xl md:text-4xl font-extrabold mb-8 text-center my-16 text-pink">
+      <h2 className="text-2xl md:text-4xl font-extrabold mb-8 text-center my-12 text-pink">
         Welcome to Treasured Care
       </h2>
 
-      <section className="bg-pink mx-4 my-12 rounded-2xl overflow-hidden flex flex-col lg:flex-row">
+      <section className="bg-pink max-w-6xl mx-4 lg:mx-auto my-12 rounded-2xl overflow-hidden flex flex-col lg:flex-row">
         {/* Left “cut-out” panel */}
         <div className="flex-1 relative flex items-start justify-center lg:justify-start p-8 lg:p-16">
           <div
@@ -37,7 +37,7 @@ export default function WelcomeMessage() {
               dignity.
             </p>
 
-            <p className="mt-8 text-base sm:text-lg leading-relaxed">
+            <p className="mt-4 text-base sm:text-lg leading-relaxed">
               My name is Adelaide Mosley, and it's both an honour and a
               privilege to serve as the Director of Treasured Care For You. With
               a long-standing career in nursing and years of hands-on experience
@@ -45,7 +45,7 @@ export default function WelcomeMessage() {
               firsthand the difference that genuine, person-centred care can
               make in someone's life.
             </p>
-            <p className="mt-0 text-base sm:text-lg leading-relaxed">
+            <p className="mt-4 text-base sm:text-lg leading-relaxed">
               This organisation was built from the ground up with a deep
               understanding of what quality suppoprt truly looks like - not just
               from a clinical perspective, but from a human one. We are here not
