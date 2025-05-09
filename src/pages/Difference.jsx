@@ -12,7 +12,7 @@ export default function DifferenceWithImage() {
       {location.pathname === "/about" && <Hero />}
 
     <section className="py-16 bg-white-50 my-10">
-    <h2 className="text-3xl font-extrabold text-center mb-12">
+    <h2 className="text-2xl md:text-4xl font-extrabold mb-8 text-center my-16 text-pink">
           About Us
         </h2>
       <div className="max-w-5xl mx-auto px-4 py-8 rounded-xl shadow-md bg-pink">

@@ -5,19 +5,19 @@ export default function Footer() {
   return (
     <footer className="bg-pink text-white">
       {/* Top links */}
-      <div className="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+      <div className="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* Logo */}
         <div className="col-span-1 flex flex-col items-center lg:items-start">
           <img
             src="/dummy.png"
             alt="Tcare for you"
-            className="h-16 w-auto mb-4"
+            className="h-16 w-auto mb-4 mx-auto"
           />
-          <span className="text-xl font-extrabold text-white">care for you</span>
+          <span className="text-xl font-extrabold text-white">Treasured Care For You</span>
         </div>
 
         {/* Column 1 */}
-        <div>
+        {/* <div>
           <h4 className="font-extrabold mb-3 text-2xl text-white">Tcare for you</h4>
           <ul className="space-y-2">
             <li>
@@ -26,7 +26,7 @@ export default function Footer() {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Column 2 */}
         <div>
@@ -34,17 +34,17 @@ export default function Footer() {
           <ul className="space-y-2">
             <li>
               <a href="/services/disability-support" className="hover:underline">
-                Disability support
+                Vision Mission
               </a>
             </li>
             <li>
               <a href="/services/aged-care" className="hover:underline">
-                Aged care
+                Company Values
               </a>
             </li>
             <li>
               <a href="/services/social-support" className="hover:underline">
-                Social support
+                About Us
               </a>
             </li>
           </ul>
@@ -56,12 +56,12 @@ export default function Footer() {
           <ul className="space-y-2">
             <li>
               <a href="/contact" className="hover:underline">
-                Contact us
+                1234567890
               </a>
             </li>
             <li>
               <a href="/careers" className="hover:underline">
-                Career
+                xyz@gmail.com
               </a>
             </li>
           </ul>

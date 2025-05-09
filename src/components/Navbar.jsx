@@ -39,10 +39,10 @@ export default function Navbar() {
               Company Values
             </Link>
             <Link
-              to="/different"
+              to="/about"
               className="text-black hover:text-blue-200 px-3 py-2 rounded-md text-1xl font-medium transition-colors duration-200"
             >
-              Treasured Care For You
+              About Us
             </Link>
             <Link
               to="/contact"
