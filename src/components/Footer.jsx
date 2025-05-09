@@ -13,12 +13,12 @@ export default function Footer() {
             alt="Tcare for you"
             className="h-16 w-auto mb-4"
           />
-          <span className="text-xl font-extrabold text-lightYellow">care for you</span>
+          <span className="text-xl font-extrabold text-white">care for you</span>
         </div>
 
         {/* Column 1 */}
         <div>
-          <h4 className="font-extrabold mb-3 text-2xl text-lightYellow">Tcare for you</h4>
+          <h4 className="font-extrabold mb-3 text-2xl text-white">Tcare for you</h4>
           <ul className="space-y-2">
             <li>
               <a href="/about" className="hover:underline">
@@ -30,7 +30,7 @@ export default function Footer() {
 
         {/* Column 2 */}
         <div>
-          <h4 className="font-extrabold mb-3 text-2xl text-lightYellow">Our services</h4>
+          <h4 className="font-extrabold mb-3 text-2xl text-white">Our services</h4>
           <ul className="space-y-2">
             <li>
               <a href="/services/disability-support" className="hover:underline">
@@ -52,7 +52,7 @@ export default function Footer() {
 
         {/* Column 3 */}
         <div>
-          <h4 className="font-extrabold mb-3 text-2xl text-lightYellow">Contact us</h4>
+          <h4 className="font-extrabold mb-3 text-2xl text-white">Contact us</h4>
           <ul className="space-y-2">
             <li>
               <a href="/contact" className="hover:underline">
@@ -69,7 +69,7 @@ export default function Footer() {
 
         {/* Column 4 */}
         <div>
-          <h4 className="font-extrabold mb-3 text-2xl text-lightYellow">Follow us on</h4>
+          <h4 className="font-extrabold mb-3 text-2xl text-white">Follow us on</h4>
           <ul className="flex space-x-4">
             <li>
               <a href="https://facebook.com" aria-label="Facebook" className="hover:text-blue-600">
